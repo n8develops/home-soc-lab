@@ -1,0 +1,36 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Python / Node (if used)
+__pycache__/
+*.pyc
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# Secrets (never commit real secrets)
+*.key
+*.pem
+*.pfx
+*.crt
+*.kdbx
+.env
+.env.*
+
+# VM/ISO – do NOT commit
+*.iso
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+
+# Splunk local state
+**/local.meta
+**/var/
